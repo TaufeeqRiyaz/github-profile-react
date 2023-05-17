@@ -1,0 +1,96 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.title {
+  margin: 50px 0;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.user-name {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.user-login {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.user-info-item:last-child {
+  margin-right: 0;
+}
+
+.info-label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.info-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.search-bar-title {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.search-bar-input {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+@media (max-width: 600px) {
+  .user-info-item {
+    margin-right: 20px;
+  }
+}

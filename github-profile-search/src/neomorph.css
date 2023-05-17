@@ -1,0 +1,40 @@
+.neomorph {
+    background: #e0e5ec;
+    box-shadow: 4px 4px 8px #c8d2db, -4px -4px 8px #f5f9ff;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .neomorph-avatar {
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px #c8d2db, -2px -2px 4px #f5f9ff;
+  }
+  
+  .neomorph:hover {
+    box-shadow: 6px 6px 12px #c8d2db, -6px -6px 12px #f5f9ff;
+  }
+  
+  .neomorph:active {
+    box-shadow: inset 4px 4px 8px #c8d2db, inset -4px -4px 8px #f5f9ff;
+  }
+  
+  /* Material design styles */
+  .material-button {
+    background-color: #2196f3;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+  }
+  
+  .material-button:hover {
+    background-color: #1976d2;
+  }
+  
+  .material-button:active {
+    background-color: #0d47a1;
+  }
+  

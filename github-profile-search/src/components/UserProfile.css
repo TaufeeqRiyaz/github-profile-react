@@ -1,0 +1,106 @@
+.user-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-profile-avatar {
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+    border: 8px solid white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .user-profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .user-profile-name {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .user-profile-username {
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-bio {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-stats {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .user-profile-stat-value {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .user-profile-stat-label {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+  }
+  
+  .user-profile-repos {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-repo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-profile-repo-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  
+  .user-profile-repo-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    margin-right: 10px;
+  }
+  
+  .user-profile-repo-stars {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    margin-right: 10px;
+  }
+  
+  .user-profile-repo-forks {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+  }
+  
